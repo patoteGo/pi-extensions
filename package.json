@@ -1,0 +1,14 @@
+{
+  "name": "pi-extensions-workspace",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "git-hud",
+    "context-workflow"
+  ],
+  "scripts": {
+    "pack:git-hud": "npm pack --dry-run ./git-hud",
+    "pack:context-workflow": "npm pack --dry-run ./context-workflow",
+    "pack:all": "npm run pack:git-hud && npm run pack:context-workflow"
+  }
+}
