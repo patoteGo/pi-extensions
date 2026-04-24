@@ -18,6 +18,9 @@ Packages in this repo:
 ```text
 README.md
 AGENTS.md
+CONTRIBUTING.md
+DEVELOPMENT.md
+RELEASE.md
 git-hud/
   README.md
   AGENTS.md
@@ -99,6 +102,14 @@ Adds a guided workflow command set:
 ```
 
 Useful for automated implementation with testing and review loops.
+
+## Repo docs
+
+- `README.md` — human overview
+- `AGENTS.md` — agent guidance
+- `CONTRIBUTING.md` — contribution workflow
+- `DEVELOPMENT.md` — local development notes
+- `RELEASE.md` — package versioning and release notes
 
 ## Notes
 

@@ -14,6 +14,9 @@ Current packages:
 
 - `README.md` — human overview for the whole repo
 - `AGENTS.md` — LLM/agent guidance for the whole repo
+- `CONTRIBUTING.md` — contributor workflow
+- `DEVELOPMENT.md` — local development notes
+- `RELEASE.md` — versioning and release notes
 - `git-hud/` — standalone installable Pi package
 - `context-workflow/` — standalone installable Pi package
 - `.pi/extensions/<name>/index.ts` — local re-export entrypoints for auto-loading in this repo
