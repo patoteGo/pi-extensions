@@ -1,0 +1,16 @@
+{
+  "name": "pi-git-hud",
+  "version": "0.2.0",
+  "description": "Pie package that adds a colorized Git HUD to the footer while preserving session stats and model info.",
+  "type": "module",
+  "keywords": ["pi-package", "pie", "pi", "git", "footer", "hud"],
+  "files": ["index.ts", "README.md", "AGENTS.md", "PLAN.md"],
+  "peerDependencies": {
+    "@mariozechner/pi-ai": "*",
+    "@mariozechner/pi-coding-agent": "*",
+    "@mariozechner/pi-tui": "*"
+  },
+  "pi": {
+    "extensions": ["./index.ts"]
+  }
+}

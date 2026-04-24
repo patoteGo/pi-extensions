@@ -1,0 +1,15 @@
+{
+  "name": "pi-context-workflow",
+  "version": "0.1.0",
+  "description": "Pi package for an automated write-test-review-fix workflow with context compaction before review.",
+  "type": "module",
+  "keywords": ["pi-package", "pie", "pi", "workflow", "review", "tests"],
+  "files": ["index.ts", "README.md", "AGENTS.md"],
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*",
+    "typebox": "*"
+  },
+  "pi": {
+    "extensions": ["./index.ts"]
+  }
+}
